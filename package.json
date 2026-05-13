@@ -1,0 +1,25 @@
+{
+  "name": "quran-search-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for searching Quranic verses with fuzzy search",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fuse.js": "^7.0.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/node-telegram-bot-api": "^0.64.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.2"
+  }
+}
